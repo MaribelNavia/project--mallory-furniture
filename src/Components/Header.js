@@ -17,12 +17,12 @@ class Header extends Component{
   			<li>Terms + Conditions</li>
   			<span className='header__element'>|</span> 
   			<li><Link to='/categories/all'>All</Link></li>
-			  <li><Link to='categories/seating'>Seating</Link></li>
-			  <li>Tables</li>
-			  <li>Desk</li>
-			  <li>Storage</li>
-			  <li>Bedroom</li>
-			  <li>Misc</li>
+			  <li><Link to='/categories/seating'>Seating</Link></li>
+			  <li><Link to='/categories/tables'>Tables</Link></li>
+			  <li><Link to='/categories/desks'>Desk</Link></li>
+			  <li><Link to='/categories/storage'>Storage</Link></li>
+			  <li><Link to='/categories/bedroom'>Bedroom</Link></li>
+			  <li><Link to='/categories/miscellaneous'>Misc</Link></li>
 			  <span className='header__element'>|</span>
   		</ul>
   		<button>

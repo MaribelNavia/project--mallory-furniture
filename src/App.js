@@ -18,7 +18,7 @@ import SingleProduct from './Components/Single-Product';
 
 import Categories from './Components/Categories';
 
-import Categories from './Components/Categories/Seating';
+
 
 import NoMatch from './Components/NoMatch';
 
@@ -36,9 +36,8 @@ class App extends Component {
         <Header />
         <Switch>
           <Route exact path='/'component={Home} />
-          <Route path='/categories/:categories' component={Categories} />
+          <Route path='/categories/:category' component={Categories} />
           <Route path='/products/:id' component={SingleProduct} />
-          <Route path='/categories/:seating' component={Seating} />
           <Route component={NoMatch} />
         </Switch>  
         <Footer /> 

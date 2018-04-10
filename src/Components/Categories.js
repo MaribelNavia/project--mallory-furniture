@@ -15,7 +15,7 @@ class Categories extends Component {
 
 	componentDidMount(){
 		request
-		.get('https://mallory-furniture-admin.now.sh/api/v1/products')
+		.get('https://mallory-furniture-admin.now.sh/api/v1/products?category='+this.props.match.params.category)
 		.then(response=>{
 			this.setState({		
 				data: response.body
